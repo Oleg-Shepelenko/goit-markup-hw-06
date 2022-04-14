@@ -622,6 +622,7 @@ body {
   width: 358px;
   background-color: var(--first-bg-color);
   cursor: pointer;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .subscribe-email:focus {
@@ -724,6 +725,14 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
   cursor: pointer;
+}
+.modal-btn-icon {
+  transform: fill var(--animation-hover);
+}
+
+.modal-btn-icon:hover,
+.modal-btn-icon:focus {
+  fill: var(--accent-color);
 }
 
 .modal-title {
